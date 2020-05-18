@@ -17,6 +17,17 @@ public class Crane extends Visual {
   }
 
   public void setup() {
+    startMinim();
+    loadAudio("GroovyRoom-Sunday.mp3");
+  }
+
+  public void keyPressed()
+  {
+      if (key == ' ')
+      {
+          getAudioPlayer().cue(0);
+          getAudioPlayer().play();
+      }
   }
 
   public void leftCrane(float spacing){

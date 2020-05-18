@@ -48,8 +48,8 @@ public class Main
 	{
 		Main main = new Main();
 		//main.startUI();	
-		main.intro();	
-		//main.flags();
+		// main.intro();	
+		main.flags();
 		// main.SpinningLocusFlower();
 		// main.Crane();
 		// main.japaneseMountain();	

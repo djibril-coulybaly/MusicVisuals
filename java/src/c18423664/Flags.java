@@ -192,6 +192,17 @@ public class Flags extends Visual
     {
         ipos = height;
         jpos = width;
+        startMinim();
+        loadAudio("GroovyRoom-Sunday.mp3");
+    }
+
+    public void keyPressed()
+    {
+        if (key == ' ')
+        {
+            getAudioPlayer().cue(0);
+            getAudioPlayer().play();
+        }
     }
     
     public void settings() 

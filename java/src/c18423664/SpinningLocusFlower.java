@@ -13,11 +13,22 @@ public class SpinningLocusFlower extends Visual{
         rectMode(CENTER);
         stroke(0,15,30);
         strokeWeight(25);
+        startMinim();
+        loadAudio("GroovyRoom-Sunday.mp3");
     }
     
     public void settings() {
         //size(800, 600);
         fullScreen(P3D, SPAN);
+    }
+
+    public void keyPressed()
+    {
+        if (key == ' ')
+        {
+            getAudioPlayer().cue(0);
+            getAudioPlayer().play();
+        }
     }
 
     public void drawLocus(float angleDirection){

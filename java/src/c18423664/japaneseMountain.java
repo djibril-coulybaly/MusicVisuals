@@ -25,6 +25,17 @@ public class japaneseMountain extends Visual
 
   public void setup() {
     bottom = height;
+    startMinim();
+    loadAudio("GroovyRoom-Sunday.mp3");
+  }
+
+  public void keyPressed()
+  {
+      if (key == ' ')
+      {
+          getAudioPlayer().cue(0);
+          getAudioPlayer().play();
+      }
   }
 
   public void draw() {
