@@ -31,4 +31,4 @@ In all of my visuals, there's extensive commenting placed at each line of code e
 In my opinion, what I am most proud of is the visual of the Japanese Mountain and the Korean/Japanese crane. Not only is it visually and aesthetically attractive, I've learned how to computationally think about how to make these visuals in terms of dynamically obtaining the measurements, making use of the Processing References and implementing new concepts learned outside the scope of the Object-Oriented Programming Module. I also beliebve that the Japanese Mountain and the Korean/Japanese crane
 
 
-[![YouTube](Link to my YouTube with all the visuals:)](https://www.youtube.com/watch?v=J2kHSSFA4NU)
+[(Link to my YouTube with all the visuals:)](https://www.youtube.com/watch?v=J2kHSSFA4NU)
